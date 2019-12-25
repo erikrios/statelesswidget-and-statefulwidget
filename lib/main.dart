@@ -38,7 +38,7 @@ class HomeState extends State<HomePage> {
         ),
         body: Center(
           child: Column(
-            crossAxisAlignment: CrossAxisAlignment.center,
+            mainAxisAlignment: MainAxisAlignment.center,
             children: <Widget>[
               Text(
                 'Nilai counter: $counter',
